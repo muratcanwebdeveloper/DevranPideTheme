@@ -1,0 +1,1023 @@
+body{
+		font-family: '-webkit-pictograph',sans-serif;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;	
+		overflow-y: scroll;	
+		overflow-x:hidden;
+	}
+	
+html
+{
+	overflow-x: hidden;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+  }
+::-webkit-scrollbar {
+    width:8px;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    
+    background-color: red;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:red;
+}
+.preloaderWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  /* change if the mask should have another color then white */
+  z-index: 9999999999999;
+  /* makes sure it stays on top */
+}
+
+.preloaderWrapper .preloader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* centers the loading animation horizontally one the screen */
+ 
+  /* centers the loading animation vertically one the screen */
+  background:black;
+  margin: 0 auto;
+  padding: 0 auto;
+  /* is width and height divided by two */
+}
+.preloaderWrapper .preloader .yuklemeResim{
+		margin: 0 auto;
+		padding:0 auto;
+		text-align: center;
+	}
+	.preloaderWrapper .preloader .yuklemeBaslik {
+		text-shadow: 1px 1px 13px red;
+		color:white;
+		text-align: center;
+		top:0;
+		margin-top: 0;
+	}
+/* ===== L O A D E R ===== */
+	/*.preloaderWrapper{
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top:0;
+		margin-bottom: 0;
+		z-index: 99999;
+		background-color: black;
+	}
+	
+	.preloaderWrapper .preloader .yuklemeResim{
+		margin: 0 auto;
+		padding:0 auto;
+		text-align: center;
+	}*/
+ /* ======= / L O A D E R =======*/
+
+/* ========================
+		N A V B A R 
+   =======================
+*/
+.anaSayfa{
+	position: relative;
+	margin-bottom: 250px;
+}
+.navbar{	
+	line-height: 3.428571;
+	 margin-bottom: 0px;
+	background-color:black;
+	margin-top: auto;
+	border:none;
+	border-radius: 0px;
+	max-width: 100%;
+	min-height: 50px;
+}
+.navbar-brand{
+	padding: 0;
+	margin-top: 0;
+   width: 200px !important;
+
+}
+.navbar-brand img{
+	margin-top: -20px;
+}
+.logoYazi{
+
+	color:red;
+	z-index: 99999;
+}
+
+.navbar-toggle{
+	border:#ff0000;
+	margin-top: 30px;
+	color: black;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ff0101;}
+.nav li{
+	    margin-top: 25px;
+}
+.navbar-right  li a{
+	    font-size: inherit;
+	margin-right: 15px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color:white!important;
+	font-family: sans-serif;
+	transition:0.3s;
+	
+}
+
+.navbar-right  a:hover{
+color:#ff0000!important;	
+}
+.navbar-right ul  li:last-child:hover{
+	color:black;
+}
+.navbar-right  a:focus{
+color:#ff0000!important;
+text-shadow:  0px 4px 20px red;
+transition:0.3s;
+}
+
+.navbar-right  a:active{
+color:#ff0000!important;
+text-shadow:  0px 4px 20px red;
+}
+.navbar-left a:hover{
+	
+	
+}
+.container>.navbar-header {
+	padding: 10px;
+}
+/* ========================
+/N A V B A R ========================
+
+*/
+
+/* ========================
+		S L İ D E R 
+	========================
+		*/
+section.#slider.slider{
+		    height: 400px;
+}
+#MySlider{
+	height: 300px;
+	
+	margin-top: -250px;
+}
+#MySlider .carousel{
+	position: relative;
+	margin-bottom: 0px;
+	
+}
+#MySlider .carousel-inner .item img{
+	    margin-top: 70px;
+	height: 400px;
+	width:100%;
+	padding: 0px;
+}
+
+
+#MySlider .carousel-caption{
+	background-color: rgba(0,0,0,0.75);
+	    padding: 3% 3s%;
+	    margin-bottom: 10vh;
+}
+.carousel-inner .carousel-caption .btn {
+	width:150px;
+	padding: 10px;
+    text-shadow: none;
+    color: red !important;
+    background: #08050594 !important;
+    border: 1px solid red;
+    transition: 0.2s;
+    letter-spacing: 2px;
+    font-size: large;
+
+ }  
+.carousel-inner .carousel-caption .btn:hover {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: red !important;
+    
+
+}
+#MySlider>ol.carousel-indicators li {
+	background-color: black;
+    border: 2px solid white;
+	border-radius:none;
+	width: 12px;
+    height: 12px;
+	margin-bottom: -180px !important; 
+}
+#MySlider>ol.carousel-indicators li.active {
+	background-color:red!important;
+    border: 1px solid black;
+	border-radius:none;
+	 width: 14px;
+    height: 14px;
+	margin-bottom: -180px !important;
+	}
+		ol.carousel-indicators{
+			display: inline-block;
+
+		}
+
+#MySlider>a.left.carousel-control{
+		
+	    background: none
+	   
+}
+#MySlider>a.right.carousel-control{
+
+	background: none;
+}
+#MySlider .carousel-control .fa{
+	      	display: inline-block;
+	        margin-top: 250px;
+	        color: #ffffff;
+            font-weight: 800;
+	      	z-index: 2;
+}
+
+/*========================
+ 	/S L İ D E R 
+========================
+*/
+/* ========================
+ 	H İ Z M E T L E R
+  ========================
+ */
+
+.hizmetler{
+	    margin-top: 180px;
+	position: relative;
+
+}
+.hizbord{
+	    max-height: 25vh;
+    width: 50vh;
+    margin-left: auto; 
+    margin: auto;
+}
+.alt{
+	transform: rotate(180deg);
+}
+.hizmetler h2{
+	letter-spacing: 5px;
+	margin-top: 0px;
+}
+h2.hizmetBaslik:after{
+	width: 100px;
+	height: 2px;
+	background-color:#ff0000;
+	display: block;
+	content: " "; 
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.hizmetBaslik{
+	letter-spacing: 2px;
+ 	margin-top: 80px;
+ 	margin-bottom: 25px;
+}
+.hizmetSlogan{
+	font-style: italic;
+	width: 70%;
+	margin-left: 18%;
+}
+.hizmetler h4{
+	    font-weight: 700;
+		margin-bottom: 15px;
+	    font-style: oblique ;
+	    color :#825808;
+
+}
+.hizmeticerik{
+	
+	font-family: "Open-sans", sans-serif;
+	color:#0404048f;
+}	
+.hizmetler i{
+
+	padding: 5%;
+    color: #825808;
+    margin-top: 20px;
+    margin-left: 43%;
+    border: 2px solid #825808;
+    border-radius: 50%;
+	box-shadow: 0px 8px 19px 1px #825808;
+	
+}
+
+/*========================
+ 	/ H İ Z M E T L E R
+========================
+ */
+
+/* ========================
+		B A N T - 1
+	=============================
+*/
+
+.bant1 {
+
+margin-top: 40px;	
+position: relative;
+}
+/* .kusbasi{
+	box-shadow: -5px 6px 19px 3px;
+   width: 100%;
+height: 300px;
+}*/
+.bant1 {
+	box-shadow: -1px 4px 13px 0px #7b7373;
+	padding: 5%;
+	font-size:3em;
+	background:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("../images/bant1Pide.jpg") no-repeat center center;
+	   	background-size: cover;
+	    background-attachment: fixed;
+	width: 100%;	
+	height: 60vh;
+	color:#fff;
+	font-variant-ligatures: normal;
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: normal;
+    margin-bottom: 0px;
+	
+
+
+}
+.bant1 .jumbotron {
+	padding:3%;
+	margin-right: 30px;
+	background-color:transparent;
+}
+.bant1 .jumbotron .btn {
+	width:150px;
+	padding: 10px;
+    text-shadow: none;
+    color: red !important;
+    background: rgba(0, 0, 0, 0.83) !important;
+    border: 1px solid red;
+    transition: 0.2s;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+    margin: auto 40%;
+    box-shadow: 0px 0px 20px 2px red;
+
+
+ }  
+.bant1 .jumbotron .btn:hover {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: red !important;
+    box-shadow: 0px 0px 18px 5px black;
+}
+
+.bant1 h1, h3{
+	text-align: center;
+	margin-right: 10%;
+}
+
+ 
+/* ========================
+		/ B A N T - 1
+	=============================
+*/
+/* ========================
+		Ü R Ü N L E R #635f5f
+	=============================
+*/
+.urunler{
+	
+	margin-bottom: 0px;
+    position: relative;
+    margin-top: -1px;
+    background-color: #464646;
+    box-shadow: -14px 7px 18px 0px;
+   background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("../images/tren.jpg") no-repeat top center;
+	    background-size: cover;
+    padding-bottom: 2%;
+    back
+}
+
+.urunler h2{
+	letter-spacing: 5px;
+	
+	color:white;
+	padding-top: 3%;
+}
+.urunler h2:after{
+	width: 100px;
+	height: 2px;
+	background-color:#ff0000;
+	display: block;
+	content: " "; 
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.urunler h4{
+	color:black;
+	transition:0.3s;
+}
+.urunler img {
+	width:100%;
+	height: 116px;
+}
+.urunler .thumbnail .caption{
+	text-align: center;
+}
+.nav-tabs{
+	text-align: center!important;
+	border:none;
+	    padding-left: 30%;
+
+}
+.nav-tabs>li.active>button, .nav-tabs>li.active>button:focus, .nav-tabs>li.active>button:hover {
+   	color: #ff0000 !important;
+    cursor: default;
+    background-color: #fff;
+    border:none;
+    border-bottom: 2px solid #ff0000;
+    border-bottom-width: 3px;
+
+}
+
+.nav-tabs>li >button{
+
+	background-color: #fff;
+	margin-bottom: 30px;
+	font-size: large;
+	border:0px;
+	border-radius: 15px;
+	line-height: 3.428571;
+	color: black;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.nav-tabs>li >button:hover{
+	color:#ff0000;
+	background-color: black;
+	border-bottom: 2px solid #ff0000 !important;
+	border-bottom-width: 3px;
+	}
+
+/*.urunler:after{
+
+	margin-top: 60px;
+    border-top: 80px solid #fff;
+    border-left: 60px solid transparent; 
+    border-right: 60px solid transparent; 
+    margin-right: 50%;
+    content: "";
+    
+    position: absolute;
+    left: 45%;
+    width: 0; 
+    height: 0;
+
+}
+*/
+/* ========================
+		/ Ü R Ü N L E R
+	=============================
+*/
+
+
+/* ========================
+			B A N T -2
+	=============================
+*/
+
+.bant2 {
+	box-shadow: -1px 4px 13px 0px #7b7373;
+	padding: 5%;
+	font-size:3em;
+	background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("../images/pizza-bant.jpg") no-repeat center center;
+	    background-size: cover;
+	    background-attachment: fixed;
+	  height: 100%;
+    width: 100%;
+	color:#fff;
+	font-variant-ligatures: normal;
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: normal;
+    margin-bottom: 0px;
+	
+
+
+}
+.bant2 .jumbotron {
+	margin-right: 30px;
+	background-color:transparent;
+	padding:3%;
+	
+}
+.bant2 .jumbotron .btn {
+	width:auto;
+	padding: 10px;
+    text-shadow: none;
+    color: red !important;
+    background: rgba(0, 0, 0, 0.83) !important;
+    border: 1px solid red;
+    transition: 0.2s;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+    margin: auto 35%;
+    box-shadow: 0px 0px 20px 2px red;
+ }  
+
+.bant2 .jumbotron .btn:hover {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: red !important;
+    box-shadow: 0px 0px 18px 5px black;
+
+}
+.bant2 h1, h3{
+	text-align: center;
+	margin-right: 10%;
+}
+
+/* ========================
+		/	B A N T -2
+	=============================
+*/
+
+/* ========================
+ 	M Ü Ş T E R İ  Y O R U M L A R I
+  ========================
+ */
+#musteri-yorumlari{
+	background-color: black;
+	position: relative;
+}
+#musteri-yorumlari h2{
+	color:red;
+}
+#musteri-yorumlari h2:after{
+	width: 100px;
+	height: 2px;
+	background-color:#fff;
+	display: block;
+	content: " "; 
+	margin: 0 auto;
+	margin-top: 20px;
+}
+ /* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+
+  background: none;
+  color: white;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -50px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -50px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+
+  background: #fff;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #ff0000;
+}
+#quote-carousel img
+{
+
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+#musteri-yorumlari .item blockquote {
+	color:white;
+    border-left: none; 
+    margin: 10px;
+}
+
+#musteri-yorumlari .item blockquote img {
+    margin-bottom: 10px;
+}
+
+#musteri-yorumlari .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color:red;
+}
+#musteri-yorumlari .item blockquote small{
+	color:red;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+ /* ========================
+ 	/M Ü Ş T E R İ  Y O R U M L A R I
+  ========================
+ */
+
+ /* ========================
+		H A K K I M I Z D A
+	=============================
+*/
+.hakkimizda{
+	height: 400px;
+	background: #ff0000 url("../images/logo-devran.png") no-repeat center center ;
+
+}
+.hakkimizda h2{
+
+	letter-spacing: 5px;
+	color:#fff;
+	margin-top:80px;
+	margin-bottom: 40px;
+}
+.hakkimizda h2:after{
+	
+	width: 100px;
+	height: 2px;
+	background-color:#ff0000;
+	display: block;
+	content: " "; 
+	margin: 0 auto;
+	margin-top: 0 auto;
+
+}
+
+.hakkimizda h4{
+	margin-top: 5%;
+    padding: 5%;
+	background-color: rgba(0,0,0,0.75);
+    color: #fff;
+    margin-top: 15px;
+    padding: 5%;
+}
+.hakkimizda img{
+	width: 150px;
+	height: 150px;
+}
+
+/* ========================
+	/	H A K K I M I Z D A
+	=============================
+*/
+
+/* ========================
+			B A N T - 3
+	=============================
+*/
+.bant3 {
+	box-shadow: -1px 4px 13px 0px #7b7373;
+	padding: 3%;
+	font-size:3em;
+	background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url("../images/pizza-bant.jpg") no-repeat left center;
+	    background-size: cover;
+	    background-attachment: fixed;
+	    height: 70vh;
+	width: 100%;	
+	color:#fff;
+	font-variant-ligatures: normal;
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: normal;
+    
+}
+.bant3 .jumbotron {
+	    margin-right: 30px;
+    background-color: transparent;
+    padding: 3%;
+}
+.bant3 .jumbotron .btn {
+	width:150px;
+	padding: 10px;
+    text-shadow: none;
+    color: red !important;
+    background: rgba(0, 0, 0, 0.83) !important;
+    border: 1px solid red;
+    transition: 0.2s;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+    margin: auto 40%;
+    box-shadow: 0px 0px 20px 2px red;
+
+ }  
+.bant3 .jumbotron .btn:hover {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: red !important;
+    box-shadow: 0px 0px 18px 5px black;
+}
+.bant3 h1, h3{
+	text-align: center;
+	margin-right: 10%;
+}
+
+/* ========================
+		/	B A N T - 3
+	=============================
+*/
+/* ========================
+			G A L E R İ
+	=============================
+*/
+.galeri h2{
+	letter-spacing: 5px;
+	color:#000000;
+	margin-top:80px;
+	margin-bottom: 40px;
+}
+.galeri h2:after{
+	
+	width: 100px;
+	height: 2px;
+	background-color:#ff0000;
+	display: block;
+	content: " "; 
+	margin: 0 auto;
+	padding-top: 10px auto;
+
+}
+.galeri  img {
+
+	width: 100%;
+}
+.galeri .thumbnail{
+	height: 180px;
+	border-color: red;
+	padding: 15px;
+	box-shadow: -4px 5px 20px 1px #040404;
+	transition:0.8s;
+}
+
+
+
+/* ========================
+		/	G A L E R İ
+	=============================
+*/
+
+/* ========================
+		İ  L E T İ Ş İ M
+	=============================
+*/
+
+.iletisim{
+	margin-top: 80px;
+    position: relative;
+    background: url("../images/basak.jpg") no-repeat center center;
+    background-size: cover;
+        padding-top: 3%;
+        padding-bottom: 5%;
+
+    }
+
+.iletisim h2{
+	
+	letter-spacing: 5px;
+	color:#ffffff;
+	
+	margin-bottom: 40px;
+}
+.iletisim h2:after{
+	
+	width: 100px;
+	height: 2px;
+	background-color:#ff0000;
+	display: block;
+	content: ""; 
+	margin: 0 auto;
+	margin-top: 15px;
+	
+
+}
+.iletisim .harita{
+
+}
+.iletisim h4{
+	display: inline-block;
+}
+.iletisim ul li{
+	display: block; 
+	list-style: none;
+	padding-bottom: 5px;
+}
+.iletisim ul li:nth-child(2){
+	margin-top: 4%;
+}
+.iletisim ul li:nth-child(3){
+	margin-top: 4%;
+}
+
+.iletisim ul li a{
+
+	text-decoration: none;
+ 	color:white;
+}
+.iletisim  .fa{
+	border: 1px solid #fbfbfb;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 3%;
+    background-color: #825808;
+    box-shadow: 0px 0px 12px 0px #825808;
+}
+
+.iletisim  .fa:hover{
+
+}
+
+/* ========================
+	/	İ  L E T İ Ş İ M
+	=============================
+*/
+
+/* ========================
+		F O O T E R
+	=============================
+*/
+.footer {
+	position: absolute;
+	background-color: rgba(0,0,0,0.87);
+	width: 100%;
+	height: 30%;
+}
+
+
+
+.footer .copyright{
+	margin-bottom: 0px;
+}
+/* ========================
+		/ F O O T E R
+	=============================
+*/
+/* M E D İ A */
+
+@media (max-width:639px){
+
+	
+		
+		.nav-tabs{
+			padding-left:0px ;
+			float: left;
+		}	
+		.nav-tabs li a{
+			font-size: 15px;
+			padding: 10px 13px;
+
+		}
+		.bant1 h2{
+			font-size: 4em;
+		}
+
+ }
+
+@media (max-width: 992px) {
+	.carousel-inner .jumbotron{
+		border-radius: 10%;
+    	padding: 30%;
+	
+	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+         background-color: black !important;
+    }
+    .navbar-toggle:hover{
+        background-color: black !important;
+    }
+    .navbar-collapse {
+        border-top: 0;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+          
+    
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+    	text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-brand img{
+    	width: 150px;
+    	height: 150px;
+
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+@media (max-width: 420px){
+		.nav-tabs li
+		{
+			margin:1px;
+			padding:0;
+			display: block;
+		
+		}
+		.nav-tabs li a {
+		    font-size: 15px;
+		    padding: 0px 2px;
+}
+/* /M E D İ A */
